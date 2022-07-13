@@ -1,0 +1,111 @@
+<html>
+<header class="video-header">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <video src="v6.mp4" autoplay loop playsinline muted></video>
+   <style>
+  .video-header {
+  position: absolute;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+.video-header, .video-header video, .video-header .viewport-header {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.video-header video {
+  background: brown;
+  object-fit: cover;
+}
+.video-header .viewport-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+html, body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+html {
+ 
+  font-size: 150%;
+  line-height: 1.4;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  background: black;
+  position: fixed;
+  padding: 1rem;
+  margin-top: 100vh;
+  opacity: 1;
+  
+ 
+}
+
+h1 span {
+ font-family: "lucida handwriting",Cursive;
+  display: block;
+  font-size: 10vw;
+  color: white
+}
+
+
+main {
+  background: black;
+  position: relative;
+  padding: 1rem;
+  margin-top: 100vh;
+  opacity: 0.95;
+  
+}
+main::before {
+  content: "";
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  top: -100vh;
+}
+main p {
+  max-width: 100%;
+  margin: 1rem auto;
+}
+
+
+
+ </style>
+  
+  
+  
+   <div class="viewport-header">
+  
+    <h1>
+       <br>
+      <span>Variation Visualization</span>
+    </h1>
+	
+	<br><br>
+	
+  </div>
+</header>
+<body>
+<main>
+<img src="tb.png" alt="Table" width= 100% height: auto>
+
+
+
+ <img src="sr.png" alt="Sustainability report" width= 100% height: auto>
+
+</main>
+</body>
+</html>
